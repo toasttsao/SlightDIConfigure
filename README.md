@@ -1,7 +1,6 @@
 # SlightDIConfigure.Extensions
 
-How to Use
-Add class inherit SlightModuleConfigure
+How to Use  Add class inherit SlightModuleConfigure
 ```C#
     public class PayModuleConfig : SlightModuleConfigure
     {
