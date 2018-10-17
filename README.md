@@ -12,3 +12,12 @@ Add class inherit SlightModuleConfigure
     }
 
 ```
+Add Extension Method in  Program.cs
+
+```C#
+ public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+        WebHost.CreateDefaultBuilder(args)
+           .UseStartup<Startup>()
+          .UseSlightDIModuleconfig(); //add this .
+
+```
